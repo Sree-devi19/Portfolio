@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #1a1a1a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f39c12;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+  list-style: none;
+}
+
+
+#certifications ul {
+  list-style: none;         /*Removes the dots*/
+  padding: 0;               /* Removes default padding*/
+}
+
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+  position: relative;
+}
+
+.skills-list {
+  list-style: none; /* This removes the bullets */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding-left: 0;  /* Also removes default left indent */
+}
+
+.skills-list li {
+  background: #eee;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.skills-list li:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+
+
+.project {
+  margin: 2rem auto;
+  max-width: 700px;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Optional: Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
